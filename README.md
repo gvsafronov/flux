@@ -129,7 +129,8 @@ Future work:
 Upade and then Install gcc, g++ and all dependencies
 
 ```sh
- sudo apt update```
+ sudo apt update 
+ ```
 
 
   ```sh
