@@ -38,6 +38,7 @@
     <li><a href="#requirements">Requirements</a></li>
     <li><a href="#cases">Cases</a></li>
     <li><a href="#structure">Structure</a></li>
+    <li><a href="#troubles">Troubles</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -247,8 +248,22 @@ as options using the command line. Examples:
 All the options in fluidB.conf are also supported as options using the command
 line, with exactly the same name.
 
+<br>
+  
+### Troubles
 
-
+1. After starting the application you see the follow worrying-looking warning:
+  
+ #### Trouble №1 
+  
+  ```
+ WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+  ```
+ #### Solution
+  
+  ```
+  Add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+  ```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
