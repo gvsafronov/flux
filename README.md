@@ -397,7 +397,7 @@ A multi-model subdivision is such a subdivision that allows you to store data us
 
 <br>
 
-* **Is there a FluidB implementation for the Windows operating system?**
+* **Is there a fluidB implementation for the Windows operating system?**
 No, there is no implementation of FluidB for the Windows operating system. our application is client-server, with on-board caching subdivision, focused on use mainly on servers, and the vast majority of servers run under the Linux operating system. We do not plan to release a version for Windows in the future.
 
 <br>
