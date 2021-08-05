@@ -89,8 +89,9 @@ Good example is to think of fluidB as a more complex version of memcached, where
 * Pattern "Central dispatcher" (for sharding)
 * Solution that sits in front of multiple data sources and allow them to be treated as a single json database
 
+ <br>
 
-## Getting Started
+# Getting Started
 
 
 ### Structure
