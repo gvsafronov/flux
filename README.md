@@ -196,6 +196,7 @@ If TLS is built, running the tests with TLS enabled (you will need tcl-tls insta
  ```
 % ./utils/gen-test-certs.sh
 % ./runtest --tls
+ ```  
 If TLS is built, running the tests with TLS enabled (you will need tcl-tls installed):
  ```
 % ./utils/gen-test-certs.sh
