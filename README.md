@@ -185,10 +185,11 @@ yum install -y tcl-devel tcltls
 To append a suffix to fluidB program names, use:
   ``` 
 % make USE_SYSTEMD=yes
+  ``` 
 
- ```
 ***Note that the following dependencies may be needed: % sudo apt-get install autoconf autotools-dev libnuma-dev libtool
-```
+  
+  ``` 
 % make PROG_SUFFIX="-alt"
  ```
 If TLS is built, running the tests with TLS enabled (you will need tcl-tls installed):
