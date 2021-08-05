@@ -263,7 +263,7 @@ then in another terminal try the following:
 
     % cd src
     % ./clif
-    fluidB> ping
+    fluidB:~> ping
     PONG
     fluidB:~> set foo bar
     OK
