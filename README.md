@@ -76,7 +76,6 @@ Good example is to think of fluidB as a more complex version of memcached, where
 * RAM: 256 MB (minimal) or above
 * Nodes: 2 (for very small cluster)
 * Operating System: UNIX-like only (Linux, BSD, OpenIndiana) **Windows isn't supported
-<br/><br/>
 
 <!-- GETTING STARTED -->
 
