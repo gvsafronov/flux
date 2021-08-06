@@ -1,3 +1,5 @@
+# Create-cluster is a small script located in root directory used to easily start a big number of Redis instances configured to run in cluster mode. 
+
 #!/bin/bash
 
 # Settings
