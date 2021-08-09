@@ -169,11 +169,6 @@ All the options in fluidB.conf are also supported as options using the command
 line, with exactly the same name.
 
 
-<!-- USAGE EXAMPLES -->
-## Usage
-
-For useful examples of how a project can be used, please refer to the <a href="https://docs.keydb.dev/docs/">Documentation</a>
-
 ### Playing with fluidB
 
 
