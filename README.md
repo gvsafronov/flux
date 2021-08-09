@@ -139,8 +139,7 @@ Future work:
  5. `$ cd fluidb && src`
  6. `$ ./fluidb-serv`
  
- 
- 
+  
 ### Running fluidB
 
 
@@ -148,7 +147,6 @@ To run fluidB with the default configuration just type:
 
     $ cd src
     $ ./fluidB-serv
-
  
 
 If you want to provide your fluidB.conf, you have to run it using an additional
@@ -168,8 +166,6 @@ as options using the command line. Examples:
 
 All the options in fluidB.conf are also supported as options using the command
 line, with exactly the same name.
-
-
 
 
 <!-- USAGE EXAMPLES -->
@@ -221,8 +217,8 @@ those options are cached indefinitely until you issue a `make distclean`
 command.
 
 
-Allocator
----------
+Memory Allocator
+-----------------
 
 Selecting a non-default memory allocator when building fluidB is done by setting
 the `MALLOC` environment variable. fluidB is compiled and linked against libc
