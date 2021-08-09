@@ -286,13 +286,8 @@ WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. Th
   ``` 
 
 ## Security
-TLS Support
 
-TLS Support
-===========
-
-Getting Started
----------------
+#### TLS Support
 
 ### Building
 
