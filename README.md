@@ -53,7 +53,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Fluidb is an open source (BSD-3-Clause License), in-memory database management system, distributed uder BSD-3-Clause License using code of [KeyDB] (https://github.com/EQ-Alpha/KeyDB), which also distributed uder BSD-3-Clause License. The purpose of our project is to fix fundamental flaws in Redis, such as scaling, creating a multi-threaded server.
+Fluidb is an open source (BSD-3-Clause License), in-memory database management system, distributed uder BSD-3-Clause License using code of [KeyDB]: https://github.com/EQ-Alpha/KeyDB, which also distributed uder BSD-3-Clause License. The purpose of our project is to fix fundamental flaws in Redis, such as scaling, creating a multi-threaded server.
 
 We do not have a docker image since docker, like any virtualization environment, forms an additional layer of abstraction that complicates both the development process itself and the program operation process. Our goal: "To create a high-performance subassembly that is as easy to use as possible"
 
