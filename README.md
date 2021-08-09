@@ -172,7 +172,7 @@ line, with exactly the same name.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-_For useful examples of how a project can be used, please refer to the [Documentation](https://docs.keydb.dev/docs/intro/)_
+_For useful examples of how a project can be used, please refer to the [Documentation](https://docs.keydb.dev/docs/)
 
 ### Playing with fluidB
 
