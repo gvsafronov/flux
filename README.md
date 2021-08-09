@@ -126,7 +126,7 @@ Future work:
    ```sh
    cd fluidb && make
    ```
-4. To build with TLS support, you'll need OpenSSL development libraries (e.g. libssl-dev on Debian/Ubuntu) and run:`
+4. To build with TLS support, you'll need OpenSSL development libraries (e.g. libssl-dev on Debian/Ubuntu) and run:
    ```
    make BUILD_TLS=yes
    ```
