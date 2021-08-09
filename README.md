@@ -66,7 +66,7 @@ Good example is to think of fluidB as a more complex version of memcached, where
 
 * **Salvatore Sanfilippo (antirez)**, I would like to express our gratitude for all that you have done!!! Thank you.
 * **John Sully**, **Ben Shermel** I wish to express my appreciation for all your efforts!!!
-<br/>
+<br>
 
 
 <!-- System Requirements -->
