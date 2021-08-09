@@ -360,7 +360,7 @@ a given bug.
 The tool can also be used just to easily create a number of instances in a
 Redis Cluster in order to experiment a bit with the system.
 
-USAGE
+Cluster Usage
 ---
 
 To create a cluster, follow these steps:
