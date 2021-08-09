@@ -113,7 +113,7 @@ Future work:
   ```sh
  sudo apt install build-essential nasm autotools-dev autoconf libjemalloc-dev tcl tcl-dev uuid-dev libcurl4-openssl-dev
   ```
-
+<br>
 ### Building
 
 1. Install gcc, g++ and all dependencies (see Prerequisites)
@@ -129,7 +129,7 @@ Future work:
    ```
    make BUILD_TLS=yes';
    ```
- 
+ <br>
  ### Installation
  
  You can install fluidB download the binary from our site https://fluidb.icu/#download
