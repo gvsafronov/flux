@@ -338,15 +338,6 @@ I/O and read/write event handling from the caller.
 
 Note that unlike Redis, fluidb fully supports multithreading of TLS connections.
 
-To-Do List
-----------
-
-- [ ] fluidb-benchmark support. The current implementation is a mix of using
-  hiredis for parsing and basic networking (establishing connections), but
-  directly manipulating sockets for most actions. This will need to be cleaned
-  up for proper TLS support. The best approach is probably to migrate to hiredis
-  async mode.
-- [ ] fluidb-cli `--slave` and `--rdb` support.
 
 Multi-port
 ----------
