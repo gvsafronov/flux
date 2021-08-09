@@ -403,7 +403,7 @@ The number of threads used to serve requests.  This should be related to the num
 
     scratch-file-path /path
 
-If you would like to use the [FLASH backed](https://github.com/JohnSully/fluidB/wiki/FLASH-Storage) storage this option configures the directory for fluidB's temporary files.  This feature relies on snapshotting to work so must be used on a BTRFS filesystem.  ZFS may also work but is untested.  With this feature fluidB will use RAM as a cache and page to disk as necessary.  NOTE: This requires special compilation options, see Building fluidB below.
+If you would like to use the [FLASH backed](https://github.com/JohnSully/keydb/wiki/FLASH-Storage) storage this option configures the directory for fluidB's temporary files.  This feature relies on snapshotting to work so must be used on a BTRFS filesystem.  ZFS may also work but is untested.  With this feature fluidB will use RAM as a cache and page to disk as necessary.  NOTE: This requires special compilation options, see Building fluidB below.
     
     db-s3-object /path/to/bucket
 
@@ -411,7 +411,7 @@ If you would like fluidB to dump and load directly to AWS S3 this option specifi
 
     active-replica yes
 
-If you are using active-active replication set `active-replica` option to “yes”. This will enable both instances to accept reads and writes while remaining synced. [Click here](https://docs.fluidB.dev/docs/active-rep/) to see more on active-rep in our docs section. 
+If you are using active-active replication set `active-replica` option to “yes”. This will enable both instances to accept reads and writes while remaining synced. [Click here](https://docs.keyDB.dev/docs/active-rep/) to see more on active-rep in our docs section. 
 
 All other configuration options behave as you'd expect.  Your existing configuration files should continue to work unchanged.
 
