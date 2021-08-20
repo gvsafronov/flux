@@ -169,6 +169,7 @@ line, with exactly the same name.
 You can use fluidB-cli to play with fluidB. Start a fluidB-server instance,
 then in another terminal try the following:
 
+```
     % cd src
     % ./clif
     fluidB:~> ping
@@ -202,6 +203,8 @@ Now that our MotoGP graph is created, we can start asking questions. For example
 2) 1) 1) "Valentino Rossi"
       2) "Yamaha"
 3) 1) "Query internal execution time: 0.625399 milliseconds"
+
+```
 
 You can find the list of all the available commands at  <a href="https://docs.keydb.dev/docs/commands/">Available Commands</a>
 
