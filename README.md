@@ -48,7 +48,7 @@
 Fluidb is an open source (BSD-3-Clause License), in-memory database management system, distributed uder BSD-3-Clause License using code of <a href="https://github.com/EQ-Alpha/KeyDB">KeyDB</a>, which also distributed uder BSD-3-Clause License. The purpose of our project is to fix fundamental flaws in Redis, such as scaling, creating a multi-threaded server.
 
 We do not have a docker image since docker, like any virtualization environment, forms an additional layer of abstraction that complicates both the development process itself and the program operation process.<br>
-Our goal: "To create a high-performance subassembly that is as easy to use as possible"
+Our goal: "To create a high-performance application based on modules architecture that is as easy to use as possible"
 
 fluidB is often referred to as a data structures server. What this means is that fluidB provides access to mutable data structures via a set of commands, which are sent using a server-client model with TCP sockets and a simple protocol. So different processes can query and modify the same data structures in a shared way. The storage of fluidB is implemented as follows: data can be stored according to the "key-value" model, or can be stored as a graph, which is a chain of interrelated events (which are similar to frames from an old film strip), which together represent a description of some event.
 
