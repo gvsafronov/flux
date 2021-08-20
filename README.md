@@ -170,6 +170,10 @@ You can use fluidB-cli to play with fluidB. Start a fluidB-server instance,
 then in another terminal try the following:
 
 ```
+
+---------------------------------------    
+ Let's start with key-value model
+---------------------------------------
     % cd src
     % ./clif
     fluidB:~> ping
@@ -183,9 +187,9 @@ then in another terminal try the following:
     fluidB:~> incr mycounter
     (integer) 2
     
-------------------------------    
- Now playing with grahp
-------------------------------
+---------------------------------    
+ Now playing with grahp model
+---------------------------------
 
 Here we'll quickly create a small graph representing a subset of motorcycle riders and teams taking part in the MotoGP championship. Once created, we'll start querying our data.
     
