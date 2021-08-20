@@ -183,9 +183,11 @@ then in another terminal try the following:
     fluidB:~> incr mycounter
     (integer) 2
     
-####Now playing with grahp
+------------------------------    
+ Now playing with grahp
+------------------------------
 
-  Here we'll quickly create a small graph representing a subset of motorcycle riders and teams taking part in the MotoGP championship. Once created, we'll start querying our data.
+Here we'll quickly create a small graph representing a subset of motorcycle riders and teams taking part in the MotoGP championship. Once created, we'll start querying our data.
     
   fluidB:~> GRAPH.QUERY MotoGP "CREATE (:Rider {name:'Valentino Rossi'})-[:rides]->(:Team {name:'Yamaha'}), (:Rider {name:'Dani Pedrosa'})-[:rides]->(:Team {name:'Honda'}), (:Rider {name:'Andrea Dovizioso'})-[:rides]->(:Team {name:'Ducati'})"
 1) 1) Labels added: 2
