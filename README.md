@@ -126,7 +126,7 @@ Future work:
  
  ### Automatic Installation
  
- You can install fluidB using installation script from our site <a href="https://fluidb.icu/public_html/download" download>Installation Script</a>
+ You can install fluidB using installation script from our site <a href="https://fluidb.icu/download/install.sh" download>Installation Script</a>
  
  1. Open the link above
  2. Click to "Download" button
