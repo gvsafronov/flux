@@ -140,7 +140,7 @@ Future work:
 ### Running fluidB
 
 
-To run fluidB with the default configuration just type:
+To run fluidB with the default configuration just run the fluidb-server:
 
     $ cd src
     $ ./fluidB-serv
