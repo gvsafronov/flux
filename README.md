@@ -183,7 +183,7 @@ then in another terminal try the following:
     fluidB:~> incr mycounter
     (integer) 2
     
-#####Now playing with grahp
+####Now playing with grahp
 
   Here we'll quickly create a small graph representing a subset of motorcycle riders and teams taking part in the MotoGP championship. Once created, we'll start querying our data.
     
